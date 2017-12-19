@@ -1,3 +1,5 @@
+##RUNNING THE FILES
+Please run the Exploratory Data analysis file before running the respective plot files.
 ## Introduction
 
 This assignment uses data from
