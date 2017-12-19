@@ -8,7 +8,7 @@ options(download.file.method = "libcurl")
 sapply(required_packages,library,character.only=T,quietly=T)
 
 ## GETTING AND CLEANING THE DATA
-url_download <- getURL("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_data_hh_requiredtion.zip")
+url_download <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_data_hh_requiredtion.zip"
 
 data_dir <- file.path(getwd(),"Data")
 plot_dir <- file.path(getwd(),"Plots")
